@@ -16,7 +16,7 @@ body {
 
 .container {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 75%;
@@ -62,6 +62,7 @@ body {
 .search-box .suggestions {
     position: absolute;
     padding: 0;
+    height: 180%;
     max-height: 240px;
     overflow-y: auto;
     display: none;
